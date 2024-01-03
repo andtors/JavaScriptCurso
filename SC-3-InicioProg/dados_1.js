@@ -1,8 +1,8 @@
 var nome = "Caneta";
 var quantidade = 10;
-var preco = 6.4;
-var imposto = 1.5;
-var precoFinal = preco + imposto;
+var preco = 6.4;  // var = modo antigo de criar variavel
+let imposto = 1.5; // let = modo atual de criar variavel
+let precoFinal = preco + imposto;
 
 console.log(nome);
 console.log(quantidade);
@@ -12,3 +12,5 @@ console.log(precoFinal);
 
 nome = "Caneta BIC"
 console.log(nome);
+
+

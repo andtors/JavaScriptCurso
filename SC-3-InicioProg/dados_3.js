@@ -4,7 +4,7 @@ console.log(idade);
 
 let salario = 4578.32;
 console.log(typeof salario); 
-// JS categoriza todos os numéros como numbers
+// JS categoriza todos os numeros como numbers
 
 
 let estaChovendo = true // ou false
