@@ -8,3 +8,6 @@ console.log(rand([50, 40]))
 console.log(rand([992]))
 console.log(rand([, 10]))
 console.log(rand([]))
+
+
+
