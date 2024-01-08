@@ -7,6 +7,7 @@ function criarProduto(nome, preco){
     }
 }
 
+
 console.log(criarProduto('Nootbook', 2199.49))
 console.log(criarProduto('iPad', 1199.49))
 

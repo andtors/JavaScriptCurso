@@ -9,7 +9,7 @@ const produto = {
     getPreco
 }
 
-global.preco = 20
+global.preco = 20 
 global.desc = 0.1
 console.log(getPreco())
 console.log(produto.getPreco())
