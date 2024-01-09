@@ -18,4 +18,4 @@ const soma = (total, atual) => total + atual
 const total2 = alunos.map(getNota).reduce(soma)
 console.log(total2 / alunos.length)
 
-// select codigo, nome, email from clientes where ativo = 1
+// select codigo, nome, email from clientes where ativo = 1 
