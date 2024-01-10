@@ -14,3 +14,5 @@ function segundoMaior(numeros) {
     return segundoMaior
 }
 console.log(segundoMaior([12, 16, 1, 5]))
+
+
