@@ -1,0 +1,10 @@
+const min = 1
+const max = 10
+function funcaoDaSorte(numeroEscolhido) {
+   const numeroAleatorio = Math.floor(Math.random() * (max - min + 1) + min)
+   return (numeroEscolhido === numeroAleatorio ?
+      `Parabéns! O número sorteado foi o ${numeroAleatorio}` :
+      `Que pena, o número sorteado foi o ${numeroAleatorio}`
+   )
+}
+console.log(funcaoDaSorte(2))
