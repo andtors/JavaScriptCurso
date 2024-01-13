@@ -1,0 +1,3 @@
+São importantes lembrar os seguintes comandos nos consoles:
+
+Express com BodyParser: npm i --save express body-parser
