@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Menu</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        .menu {
+            padding-top: 24px;
+            display: inline-block;
+        }
+
+        li {
+            display: inline;
+            padding: 20px;
+           
+        }
+
+        li:hover{
+            background-color: aqua;
+            color: black;
+        }
+
+        .logo {
+            float: left;
+        }
+
+        .autenticacao {
+            float: right;
+            padding-top: 40px;
+            padding-right: 40px;
+        }
+
+        .cabecalho {
+            height: 100px;
+            background-color: rgb(61, 58, 58);
+        }
+
+        .menu-toggle {
+            display: none;
+        }
+
+        img {
+            width: 80%;
+        }
+        
+        a{
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration: none;
+            
+        }
+
+        .botao_destaque{
+            background-color: red;
+            border-style: solid 0px;
+            border-radius: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="#inicio">
+                <img src="http://files.cod3r.com.br/curso-web/logo.png" alt="Logo" />
+            </a>
+        </div>
+        <button class="menu-toggle">
+            <i class="fa fa-lg fa-bars"></i>
+        </button>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#inicio">Início</a>
+                </li>
+                <li>
+                    <a href="#cursos">Cursos</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <aside class="autenticacao">
+            <a href="#login">Login</a>
+            <a href="#registrar" class="botao_destaque">Registrar</a>
+        </aside>
+    </header>
+
+    <script>
+        // ...
+    </script>
+</body>
+
+</html>
