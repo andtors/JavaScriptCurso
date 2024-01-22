@@ -1,3 +1,6 @@
 São importantes lembrar os seguintes comandos nos consoles:
 
+
+npm init -y Para criarmos o package.json
+
 Express com BodyParser: npm i --save express body-parser
