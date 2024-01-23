@@ -5,4 +5,8 @@ npm init -y Para criarmos o package.json
 
 Express com BodyParser: npm i --save express body-parser
 
-Teste
+Funcionalidade =
+
+Node.js: back-end além de integrar com biblioteca de terceiros
+Ajax, Axios, Fetch: chamar dados da internet para a pagina sem a necessidade de carrega-lo numa nova pagina
+Gulp: Manipular arquivos aplicando a eles varias transformações para que elas trabalhem em serie ou em paralelos
