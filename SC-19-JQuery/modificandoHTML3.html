@@ -6,15 +6,27 @@
     <title>Modificando HTML #03</title>
     <link rel='stylesheet' href='css/estilo.css'>
     <script src='js/jquery.js'></script>
+    <style>
+        li {
+            list-style: decimal;
+        }
+    </style>
 </head>
 
 <body class='conteudo exercicio'>
     <h1>Modificando HTML #03</h1>
     <div id='conteudo'></div>
+    <div id='conteudo2'></div>
 
     <script>
+
+        $(function(){
+            // tudo que for referente ao JQ para ser executado, colocar aqui para quando o
+            // documentos estiver 100% carregado executar esses comandos
+        })
+
         const pessoas = [
-            { nome: 'Ana', nota: 9.1 },
+            { nome: 'Ana', nota: 9.1 }, 
             { nome: 'Bianca', nota: 8.4 },
             { nome: 'Carlos', nota: 7.6 },
             { nome: 'Julia', nota: 9.7 }
@@ -32,5 +44,27 @@
         
         const lista = $('<ul>').prepend(elementos)
         $('#conteudo').append(lista)
+
+        $(document).ready(function(){
+            const alunos = [
+            { nome: 'Ana', nota: 9.1 },
+            { nome: 'Bianca', nota: 8.4 },
+            { nome: 'Carlos', nota: 7.6 },
+            { nome: 'Julia', nota: 9.7 }
+        ]
+
+            const linhas = alunos.map(p => {
+                const tdNome = $('<td>').html(p.nome)
+                const tdNota = $('<td>').html(p.nota)
+                // return $('<tr>').append(tdNome).append(tdNota)
+                 return $('<tr>').append(tdNome, tdNota)
+                // return $('<tr>').append([tdNome, tdNota])    
+            })
+
+            const tabela = $('<table>').append(linhas)
+                .css('border', 'solid 5px')
+            $('#conteudo2').append(tabela)
+            
+        })
     </script>
 </body>
