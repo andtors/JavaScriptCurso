@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Modificando HTML #03</title>
+    <link rel='stylesheet' href='css/estilo.css'>
+    <script src='js/jquery.js'></script>
+</head>
+
+<body class='conteudo exercicio'>
+    <h1>Modificando HTML #03</h1>
+    <div id='conteudo'></div>
+
+    <script>
+        const pessoas = [
+            { nome: 'Ana', nota: 9.1 },
+            { nome: 'Bianca', nota: 8.4 },
+            { nome: 'Carlos', nota: 7.6 },
+            { nome: 'Julia', nota: 9.7 }
+        ]
+
+        const nomes = pessoas.map(pessoa => pessoa.nome)
+        const notas = pessoas.map(pessoa => pessoa.nota)
+
+        const elementos = [
+            $('<li>').append(`Nome: ${nomes[0]} Nota: ${notas[0]}`),
+            $('<li>').append(`Nome: ${nomes[1]} Nota: ${notas[1]}`),
+            $('<li>').append(`Nome: ${nomes[2]} Nota: ${notas[2]}`),
+            $('<li>').append(`Nome: ${nomes[3]} Nota: ${notas[3]}`)
+        ]
+        
+        const lista = $('<ul>').prepend(elementos)
+        $('#conteudo').append(lista)
+    </script>
+</body>
