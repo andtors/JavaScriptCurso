@@ -10,3 +10,6 @@ Funcionalidade =
 Node.js: back-end além de integrar com biblioteca de terceiros
 Ajax, Axios, Fetch: chamar dados da internet para a pagina sem a necessidade de carrega-lo numa nova pagina
 Gulp: Manipular arquivos aplicando a eles varias transformações para que elas trabalhem em serie ou em paralelos
+Webpack: semelhante ao Gulp, quando o cliente acessar o site requisitando seus arquivos, em vez de requisitar arquivo por arquivo estará tudo atrelado a apenas um que vai estar simplificando os demais
+jQuery: Facilita a manipulação do DOM, permitindo funcionalidades já pré estabelecidas e mais simplicidade no codigo
+Bootstrap:
