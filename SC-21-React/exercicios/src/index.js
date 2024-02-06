@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Pai from './componentes/Pai'
-import Filho from './componentes/Filho'
+import Pai from './componentes/Pais'
+import Filho from './componentes/Filhos'
 
 ReactDOM.render(
     <div>
