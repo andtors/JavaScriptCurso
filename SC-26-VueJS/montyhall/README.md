@@ -1,4 +1,4 @@
-# calculator
+# montyhall
 
 ## Project setup
 ```

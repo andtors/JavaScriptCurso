@@ -1,6 +1,7 @@
 <template>
     <div id="app">
-        <h1>Olá Vue!</h1>
+        <h1>Calculadora</h1>
+        <Calculator />
     </div>
 </template>
 
@@ -8,21 +9,25 @@
 import Calculator from "./main/Calculator"
 
 export default {
-
+    components: { Calculator }
 }
 </script>
 
 <style>
-@font-face{
+@font-face {
     font-family: "RobotoMono";
-    src: url("./fonts/RobotoMono-Thin.ttf")
+    src: url("./fonts/RobotoMono-Thin.ttf");
 }
 
-*{
+* {
     font-family: "RobotoMono", monospace;
 }
 
-#app{
+body {
+    margin: 0;
+}
+
+#app {
     display: flex;
     flex-direction: column;
     height: 100vh;
