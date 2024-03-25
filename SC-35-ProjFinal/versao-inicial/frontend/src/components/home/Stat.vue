@@ -12,27 +12,27 @@
 
 <script>
 export default {
-    name:'Stat',
+    name: 'Stat',
     props: ['title', 'value', 'icon', 'color'],
     computed: {
         style() {
-            return "color:" + (this.color || "#000")
+            return "color: " + (this.color || "#000")
         }
     }
 }
 </script>
 
 <style>
-    .stat{
+    .stat {
         flex: 1;
         display: flex;
         border-radius: 8px;
         margin-right: 20px;
         margin-bottom: 20px;
-        margin-bottom: #fff;
+        background-color: #FFF;
         padding: 20px;
-        border: 1px solid rgba(0, 0, 0,0.2);
-        box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
     }
 
     .stat-icon {
@@ -58,5 +58,4 @@ export default {
     .stat-value {
         font-size: 3rem;
     }
-
 </style>
